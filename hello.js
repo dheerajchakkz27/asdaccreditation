@@ -1,10 +1,24 @@
+var nodemailer = require('nodemailer');
 
-var http = require('http');
-var fs = require('fs');
-http.createServer(function (req, res) {
-  fs.readFile('main.html', function(err, data) {
-    res.writeHead(200, {'Content-Type': 'text/html'});
-    res.write(data);
-    res.end();
-  });
-}).listen(8080);
+var transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: 'dheerajchakkz27@cet.ac.in',
+    pass: 'cet.ac.in'
+  }
+});
+
+var mailOptions = {
+  from: 'dheerajchakkz27@cet.ac.in',
+  to: 'sreeragms@cet.ac.in',
+  subject: 'Sending Email using Node.js',
+  text: 'That was easy!.Just checking'
+};
+
+transporter.sendMail(mailOptions, function(error, info){
+  if (error) {
+    console.log(error);
+  } else {
+    console.log('Email sent: ' + info.response);
+  }
+});

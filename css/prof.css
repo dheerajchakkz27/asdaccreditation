@@ -1,0 +1,115 @@
+.head{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4vh;
+    padding-top: 3vh;
+    
+}
+.line{
+    width: 57%;
+    position: absolute;
+    top: 8vh;
+    left: 43vw;
+    height: 6px;
+    background-color: #76B852;
+    /*margin-bottom: 20vh;*/
+}
+.vl{
+    border-left: solid 2px gray;
+    height: 90%;
+    position: absolute;
+    left: 22%;
+    top: 5vh;
+}
+.propic{
+    height: 25vh;
+    width: 16%;
+    border: solid 1px #76B852;
+    border-radius: 3% ;
+    margin-left: 4vh;;
+}
+.details{
+    padding-left: 4vw;
+    padding-top: 3vh;
+    font-size: 3vh;
+}
+.id{
+    padding-left: 5vw;
+}
+.email{
+    padding-left: 3.7vw;
+}
+.us{
+    padding-left:4vw;
+    font-size: 3vh;
+}
+.btn{
+    background-color: white;
+    border: solid 1px #76B852;
+    color: #76B852;
+    width: 10%;
+    height: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 25%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh;
+    cursor: pointer;
+    position: absolute;
+    left: 5.2vw;
+    top: 85vh;
+}
+
+.course_btn{
+border: solid 1px #76B852;
+background-color: white;
+position: absolute;
+width :68vw;
+height: 12vh;
+left: 27vw;
+top: 16vh;
+text-align: left;
+text-decoration: none;
+display: inline-block;
+font-size: 3vh;
+cursor: pointer;
+}
+
+.course_btn2{
+    border: solid 1px #76B852;
+    background-color: white;
+    position: absolute;
+    width :68vw;
+    height: 12vh;
+    left: 27vw;
+    top: 31vh;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vh;
+    cursor: pointer;
+    }
+.add{
+    background-color: #76B852;
+    border: none;
+    color: white;
+    width: 10%;
+    height: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh;
+    cursor: pointer;
+    position: absolute;
+    left: 55vw;
+    top: 50vh;
+}
