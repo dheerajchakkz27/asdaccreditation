@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Front Page</title>
+	<style type="text/css">
+	body {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    padding: 20px;
+    padding-top: 100px;
+    text-align: center;
+}
+	h1{
+		font-family: Helvetica;
+		color: grey;
+	}
+	h3{
+		font-family: Helvetica;
+		color: grey;
+		
+	}
+	.co_internal{
+		width: 100%;
+		height: 100%;
+
+	}
+	.assignment_marks{
+		width: 100%;
+		height: 100%;
+
+	}
+	.submitandfind{
+	color: white;
+	    margin: 0;
+    background-color: #76B852;
+    border-color: #76B852;
+    font-family: Helvetica;
+	display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	}
+	.submitandfind:hover{
+		background-color: green;
+		color: white;
+	}
+	.find{
+	color: white;
+	    margin: 0;
+    font-family: Helvetica;
+    background-color: #76B852;
+    border-color: #76B852;
+	display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 2px 3px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	}
+	.find:hover{
+		background-color: green;
+		color: white;
+	}
+	/*hr.line{
+		border: 2px solid #76B852;
+		color: #76B852;
+		border-radius: 2px;
+		padding: 0px
+	}*/
+	</style>
+</head>
+<body>
+	<div class="body" style="text-align: center">
+	<h1>EDIT MARKS</h1><font color="grey" >
+		<hr color="red">
+		<br>
+	<div class ="reg_no">
+		<form>
+			Register No  <input type = "no" name = "reg_no" />
+			
+		<button type="button" title="find" class="find" tabindex="2" > Find</button>
+		</form>
+	</div>
+	<br>
+	<h3>INTERNAL EXAM MARKS</h3>
+<form name="co_internal">
+	<table  align="center" class="co_internal" cellpadding="5%" cellspacing="5px">
+		<tbody>
+			<th><label for="co1">CO1</label></th>
+			<th><input type="number" id="co1" name="co1"></th>
+			<th><label for="co2">CO2</label></th>
+			<th><input type="number" id="co2" name="co2"></th>
+			<th><label for="co3">CO3</label></th>
+			<th><input type="number" id="co3" name="co3"></th>
+			<th><label for="co4">CO4</label></th>
+			<th><input type="number" id="co4" name="co4"></th>
+			<th><label for="co5">CO5</label></th>
+			<th><input type="number" id="co5" name="co5"></th>
+			<th><label for="co6">CO6</label></th>
+			<th><input type="number" id="co6" name="co6"></th>
+		</tbody>
+	</table>
+</form>	
+<br><br>
+<h3>ASSIGNMENT MARKS</h3>
+<form name="assignment_marks">
+	<table align="center" class="assignment_marks" cellpadding="5%" cellspacing="5px">
+		<tbody>
+			<th><label for="aco1">CO1</label></th>
+			<th><input type="number" id="aco1" name="aco1"></th>
+			<th><label for="aco2">CO2</label></th>
+			<th><input type="number" id="aco2" name="aco2"></th>
+			<th><label for="aco3">CO3</label></th>
+			<th><input type="number" id="aco3" name="aco3"></th>
+			<th><label for="aco4">CO4</label></th>
+			<th><input type="number" id="aco4" name="aco4"></th>
+			<th><label for="aco5">CO5</label></th>
+			<th><input type="number" id="aco5" name="aco5"></th>
+			<th><label for="aco6">CO6</label></th>
+			<th><input type="number" id="aco6" name="aco6"></th>
+		</tbody>
+	</table>
+    <br>
+	<button class="submitandfind" type="submit">Submit</button>
+
+
+</form>	
+
+</body>
+</div>
+</html>
