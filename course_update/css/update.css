@@ -1,0 +1,67 @@
+.heading{
+    text-align: center;
+    margin-top: 3vh;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#76B852;
+}
+
+.hline{
+    width:100%;
+    height: 6px;
+    background-color: #76B852;
+    position: absolute;
+    top: 10vh;
+}
+.det{
+    padding-top: 1.5vh;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.internal{
+    background-color: white;
+    border: solid 1px #76B852;
+    color: grey;
+    width: 80%;
+    height: 15%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10%;
+    margin-top: 3vh;
+    
+}
+.ima{
+    height: 40px;
+    width:auto;
+    cursor: pointer;
+}
+.add{
+    background-color: #76B852;
+    border: none;
+    color: white;
+    width: 10%;
+    height: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh;
+    cursor: pointer;
+    position: relative;
+    left: 40vw;
+    margin-top: 2vh;
+}
