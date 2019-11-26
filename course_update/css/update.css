@@ -65,3 +65,24 @@
     left: 40vw;
     margin-top: 2vh;
 }
+
+.add1{
+    background-color: #76B852;
+    border: none;
+    color: white;
+    width: 20%;
+    height: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh;
+    cursor: pointer;
+    position: relative;
+    left: 35vw;
+    margin-top: 6vh;
+}
