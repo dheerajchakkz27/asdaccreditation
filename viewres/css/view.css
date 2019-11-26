@@ -18,3 +18,57 @@
     color: grey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; ;
+  }
+  
+  td {
+  
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  
+  th {
+  
+    border: 3px solid #000000;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  
+  tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  
+  
+  input[type=number], select {
+    width: 100%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+  
+  }
+  
+  output[type=number], select {
+    width: 100%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+  
+  }
