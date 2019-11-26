@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<script src="script.js"></script>
 <style> 
 input {
-  width: 30.2%;
+  width: 15%;
   height: 40px;
   border-radius: 20px;
   text-align: center;
@@ -12,6 +14,27 @@ input {
 </style>
 
 <style>
+  table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; ;
+}
+td {
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 5px;
+}
+th {
+  border: 3px solid #000000;
+  text-align: center;
+  padding: 5px;
+}
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
 .button {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -38,23 +61,37 @@ input {
     <h1 align="center"><font color="grey">
 INTERNAL MARKS</h1> </font><hr color="#76B852">
 <br>
-    <input type="text" id="internalNo" placeholder="internal No"> <br><br><br><br>
-    <input type="text" id="co_1_total" placeholder="Total co 1"> &nbsp
-    <input type="text" id="co_2_total" placeholder="Total co 2"> &nbsp
-    <input type="text" id="co_3_total" placeholder="Total co 3"> <br><br>
-    <input type="text" id="co_4_total" placeholder="Total co 4"> &nbsp
-    <input type="text" id="co_5_total" placeholder="Total co 5"> &nbsp
-    <input type="text" id="co_6_total" placeholder="Total co 6"> <br><br>
+    <input type="number" id="internalNo" placeholder="Internal ID"> <br><br>
+    <input type="number" id="co_1_total" placeholder="Total CO 1"> &nbsp
+    <input type="number" id="co_2_total" placeholder="Total CO 2"> &nbsp
+    <input type="number" id="co_3_total" placeholder="Total CO 3"> &nbsp
+    <input type="number" id="co_4_total" placeholder="Total CO 4"> &nbsp
+    <input type="number" id="co_5_total" placeholder="Total CO 5"> &nbsp
+    <input type="number" id="co_6_total" placeholder="Total CO 6"> <br><br>
     <button class="button button1" align="center" onclick="createJSON()">Add internal</button> <br>
-    <input type="text" id="studNo" placeholder="reg no"> <br><br><br><br>
-    <input type="text" id="co_1" placeholder="Attained co 1"> &nbsp
-    <input type="text" id="co_2" placeholder="Attained co 2"> &nbsp
-    <input type="text" id="co_3" placeholder="Attained co 3"><br><br>
-    <input type="text" id="co_4" placeholder="Attained co 4"> &nbsp
-    <input type="text" id="co_5" placeholder="Attained co 5"> &nbsp
-    <input type="text" id="co_6" placeholder="Attained co 6"> &nbsp<br><br><br><br>
-    <button class="button button1" align="center" onclick="addToStudentList()">+Add</button><br><br><br><br>
-    <button class="button button1" align="center" onclick="sendJSON()">+Add</button>
+    <input type="number" id="studNo" placeholder="Student ID"> <br><br>
+    <input type="number" id="co_1" placeholder="Attained CO 1"> &nbsp
+    <input type="number" id="co_2" placeholder="Attained CO 2"> &nbsp
+    <input type="number" id="co_3" placeholder="Attained CO 3"> &nbsp
+    <input type="number" id="co_4" placeholder="Attained CO 4"> &nbsp
+    <input type="number" id="co_5" placeholder="Attained CO 5"> &nbsp
+    <input type="number" id="co_6" placeholder="Attained CO 6"> &nbsp<br><br>
+    <button class="button button1" align="center" onclick="addRow()">+Add</button><br><br>
+
+  <table id="myTable">
+  <tr>
+    <th>ID</th>
+    <th>CO1</th>
+    <th>CO2</th>
+    <th>CO3</th>
+    <th>CO4</th>
+    <th>CO5</th>
+    <th>CO6</th>
+  </tr>
+
+</table>
+<br><br>
+
+    <button class="button button1" align="center" onclick="sendJSON()">+Upload</button>
 </body>
-<script src="script.js"></script>
 </html>
